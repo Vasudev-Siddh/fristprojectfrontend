@@ -1,0 +1,37 @@
+body{
+    background-color: rgb(234, 234, 207);
+}
+.table-container{
+    max-width: 600px;
+    background-color: antiquewhite;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background-color: bisque;
+}
+
+th,td{
+    padding: 10px;
+    text-align: center;
+    border: 2px solid rgb(156, 156, 240);
+}
+tr:hover{
+    background-color: azure;
+    transition: 0.5s;
+}
+
+th{
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+tfoot{
+    background-color:azure
+    color: #000;
+}
+tfoot:hover{
+    color: rgb(9, 156, 107);
+}
