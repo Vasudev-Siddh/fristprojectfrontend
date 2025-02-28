@@ -1,0 +1,1 @@
+﻿.RadHtmlChart.k-chart .k-navigator-hint .k-tooltip{color:#000}.k-marquee{position:absolute;z-index:100000}.k-marquee-color,.k-marquee-text{position:absolute;top:0;left:0;width:100%;height:100%}.k-marquee-color{opacity:.6}

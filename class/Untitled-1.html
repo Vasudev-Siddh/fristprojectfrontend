@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../class/fitness.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body class="bg-blue-200 p-0 m-0">
+   <!-- Navigation -->
+<nav class="flex justify-between items-center p-5 bg-blue-900 text-gray-100 px-[5%] m-0 fixed w-full z-50">
+    <h4 class="text-3xl font-medium">PeakPulse Fitness</h4>
+    <ul class="flex space-x-8">
+        <li class="hover:text-blue-300 cursor-pointer transition duration-300">Home</li>
+        <li class="hover:text-blue-300 cursor-pointer transition duration-300">Services</li>
+        <li class="hover:text-blue-300 cursor-pointer transition duration-300">Pricing</li>
+        <li class="hover:text-blue-300 cursor-pointer transition duration-300">Contact</li>
+    </ul>
+</nav>
+
+<!-- Hero Section -->
+<div class="text-center bg-blue-300 min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-blue-300 to-blue-400 relative">
+    <div class="absolute inset-0 bg-[url('/fitness-pattern.png')] opacity-10"></div>
+    <div class="z-10 px-4">
+        <h3 class="text-5xl font-bold text-blue-900 mb-6">Get Fit with PeakPulse Fitness</h3>
+        <p class="text-blue-900 text-2xl mb-8 max-w-2xl mx-auto">Your journey to a stronger you starts here. Join our community of fitness enthusiasts and transform your life.</p>
+        <div class="space-x-4">
+            <button class="bg-blue-900 text-gray-100 px-8 py-3 rounded-lg cursor-pointer hover:bg-blue-950 hover:transform hover:scale-105 transition duration-300 font-semibold">
+                Join Now
+            </button>
+            <button class="bg-transparent border-2 border-blue-900 text-blue-900 px-8 py-3 rounded-lg cursor-pointer hover:bg-blue-900 hover:text-white transition duration-300 font-semibold">
+                Learn More
+            </button>
+        </div>
+    </div>
+</div>
+
+<!-- Features Section -->
+<div class="py-20 bg-gray-50">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-4xl font-bold text-blue-800 text-center mb-16">Why Choose PeakPulse Fitness?</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-900 mb-3">State-of-the-art Equipment</h3>
+                <p class="text-gray-600">Access to the latest fitness technology and premium exercise equipment</p>
+            </div>
+            
+            <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-900 mb-3">Expert Trainers</h3>
+                <p class="text-gray-600">Certified professionals dedicated to helping you achieve your fitness goals</p>
+            </div>
+            
+            <div class="text-center p-6 bg-white rounded-xl shadow-lg hover:shadow-xl transition duration-300">
+                <div class="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                    <svg class="w-8 h-8 text-blue-800" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-blue-900 mb-3">Flexible Hours</h3>
+                <p class="text-gray-600">24/7 access to fit your schedule, whenever you want to work out</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Membership Section -->
+<div class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-4xl font-bold text-blue-800 text-center mb-4">Membership Options</h2>
+        <p class="text-gray-600 text-center mb-16 max-w-2xl mx-auto">Choose the perfect plan that fits your fitness journey and goals</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Basic Plan -->
+            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <h4 class="text-2xl font-semibold text-blue-900 mb-4">Basic</h4>
+                <p class="text-4xl font-bold text-blue-800 mb-4">$29<span class="text-lg">/month</span></p>
+                <ul class="text-gray-600 space-y-3 mb-8">
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Access to gym equipment
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Basic fitness assessment
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Locker room access
+                    </li>
+                </ul>
+                <button class="w-full bg-blue-900 text-gray-100 py-3 rounded-lg hover:bg-blue-950 transition duration-300">
+                    Get Started
+                </button>
+            </div>
+
+            <!-- Premium Plan -->
+            <div class="bg-blue-900 p-8 rounded-xl shadow-xl hover:shadow-2xl transition-shadow duration-300 transform scale-105">
+                <div class="absolute top-0 right-0 bg-yellow-500 text-xs text-blue-900 font-bold py-1 px-3 rounded-tr-xl rounded-bl-xl">
+                    MOST POPULAR
+                </div>
+                <h4 class="text-2xl font-semibold text-gray-100 mb-4">Premium</h4>
+                <p class="text-4xl font-bold text-gray-100 mb-4">$49<span class="text-lg">/month</span></p>
+                <ul class="text-gray-300 space-y-3 mb-8">
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        All Basic features
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Group fitness classes
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Personal trainer consultation
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-yellow-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Nutrition guidance
+                    </li>
+                </ul>
+                <button class="w-full bg-yellow-500 text-blue-900 py-3 rounded-lg hover:bg-yellow-400 transition duration-300 font-semibold">
+                    Get Started
+                </button>
+            </div>
+
+            <!-- Elite Plan -->
+            <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 border border-gray-200">
+                <h4 class="text-2xl font-semibold text-blue-900 mb-4">Elite</h4>
+                <p class="text-4xl font-bold text-blue-800 mb-4">$79<span class="text-lg">/month</span></p>
+                <ul class="text-gray-600 space-y-3 mb-8">
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        All Premium features
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Unlimited personal training
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Spa access
+                    </li>
+                    <li class="flex items-center">
+                        <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                        </svg>
+                        Priority booking
+                    </li>
+                </ul>
+                <button class="w-full bg-blue-900 text-gray-100 py-3 rounded-lg hover:bg-blue-950 transition duration-300">
+                    Get Started
+                </button>
+            </div>
+        </div>
+
+        <div class="text-center mt-12<span class="ml-2" /><span class="inline-block w-3 h-3 rounded-full bg-neutral-a12 align-middle mb-[0.1rem]" />
+        <div class="flex justify-center items-center mt-12 px-20 h-[70vh] bg-gray-50">
+            <div class="grid grid-cols-3 gap-16 w-full max-w-7xl">
+                <!-- Basic Plan -->
+                <div class="bg-gradient-to-b from-blue-50 to-blue-100 p-8 rounded-2xl shadow-xl w-full hover:scale-105 transition-transform duration-300 border border-blue-200">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-blue-900">Basic</h4>
+                        <span class="bg-blue-200 text-blue-800 px-3 py-1 rounded-full text-sm">Most Popular</span>
+                    </div>
+                    <p class="text-blue-800 text-4xl font-bold mb-2">$29<span class="text-lg">/mo</span></p>
+                    <p class="text-blue-600 mb-6">Perfect for beginners</p>
+                    <ul class="text-blue-700 mb-8 space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Access to gym floor
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Basic equipment
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Locker room access
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Fitness assessment
+                        </li>
+                    </ul>
+                    <button class="bg-blue-900 text-white p-3 rounded-xl w-full hover:bg-blue-950 transform transition-all duration-300 hover:shadow-lg font-semibold">
+                        Get Started
+                    </button>
+                </div>
+        
+                <!-- Premium Plan -->
+                <div class="bg-gradient-to-b from-blue-100 to-blue-200 p-8 rounded-2xl shadow-xl w-full hover:scale-105 transition-transform duration-300 border-2 border-blue-400 transform translate-y-[-20px]">
+                    <div class="absolute top-0 right-0 -translate-y-1/2 bg-blue-500 text-white px-4 py-1 rounded-full text-sm">
+                        Best Value
+                    </div>
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-blue-900">Premium</h4>
+                    </div>
+                    <p class="text-blue-800 text-4xl font-bold mb-2">$49<span class="text-lg">/mo</span></p>
+                    <p class="text-blue-600 mb-6">For serious fitness enthusiasts</p>
+                    <ul class="text-blue-700 mb-8 space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            All Basic features
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Unlimited group classes
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            2 Personal training sessions/month
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Sauna access
+                        </li>
+                    </ul>
+                    <button class="bg-blue-600 text-white p-3 rounded-xl w-full hover:bg-blue-700 transform transition-all duration-300 hover:shadow-lg font-semibold">
+                        Select Premium
+                    </button>
+                </div>
+        
+                <!-- Elite Plan -->
+                <div class="bg-gradient-to-b from-blue-200 to-blue-300 p-8 rounded-2xl shadow-xl w-full hover:scale-105 transition-transform duration-300 border border-blue-400">
+                    <div class="flex items-center justify-between mb-4">
+                        <h4 class="text-2xl font-bold text-blue-900">Elite</h4>
+                        <span class="bg-blue-400 text-white px-3 py-1 rounded-full text-sm">Ultimate</span>
+                    </div>
+                    <p class="text-blue-800 text-4xl font-bold mb-2">$79<span class="text-lg">/mo</span></p>
+                    <p class="text-blue-600 mb-6">For maximum results</p>
+                    <ul class="text-blue-700 mb-8 space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            All Premium features
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            24/7 gym access
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Custom nutrition planning
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"/>
+                            </svg>
+                            Priority booking
+                        </li>
+                    </ul>
+                    <button class="bg-blue-900 text-white p-3 rounded-xl w-full hover:bg-blue-950 transform transition-all duration-300 hover:shadow-lg font-semibold">
+                        Choose Elite
+                    </button>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

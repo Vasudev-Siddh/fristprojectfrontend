@@ -1,0 +1,1 @@
+﻿.RadHtmlChart_Silk.k-chart .k-navigator-hint .k-tooltip{color:#333}.k-marquee-color{color:#333;background-color:rgba(254,235,188,0.6);border-color:rgba(254,235,188,0.6)}
